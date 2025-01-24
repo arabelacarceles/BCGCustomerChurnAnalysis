@@ -17,8 +17,6 @@ In this Business Challenge, we worked with synthetic data and a mobile app proto
 │   │   ├── processed_dataset.csv         # Dataset after cleaning and feature engineering.
 ├── notebooks/
 │   ├── MBAN_Team4_BusinessChallenge.ipynb  # Jupyter notebook for data exploration and modeling.
-├── models/
-│   ├── MBAN_Team4_MLModel_BusinessChallenge.zip  # Machine learning models applied to predict churn.
 ├── reports/
 │   ├── MBAN_Team4_BusinessChallenge_Presentation.pdf  # Final presentation with strategies and insights.
 │   ├── MBAN_Team4_BusinessChallenge_Excel.xlsx        # Supporting analysis in Excel.
@@ -30,7 +28,6 @@ In this Business Challenge, we worked with synthetic data and a mobile app proto
 - Python 3.8 or higher.
 - Required Python libraries 
 - Jupyter Notebook for running the analysis.
-- RapidMinder for Machine Learning Models
 
 ### Steps
 1. **Clone the Repository:**
@@ -39,10 +36,7 @@ In this Business Challenge, we worked with synthetic data and a mobile app proto
    ```
 2. **Data Exploration and Cleaning:**
    - Use the Jupyter notebook `MBAN_Team4_BusinessChallenge.ipynb` to explore and clean the dataset.
-3. **Run Machine Learning Models:**
-   - Unzip the models in the `models/` folder.
-   - Import de models into RapidMinder
-4. **Review Results:**
+3. **Review Results:**
    - Refer to the `reports/` folder for the presentation and supporting analysis.
 
 ## Key Deliverables
@@ -60,7 +54,7 @@ In this Business Challenge, we worked with synthetic data and a mobile app proto
 ## Technologies Used
 - **Programming Languages:** Python, Jupyter Notebook.
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn.
-- **Tools:** RapidMiner for machine learning models, Excel for additional analysis.
+- **Tools:** Excel.
 
 
 ## Notes
