@@ -1,14 +1,36 @@
-# Customer Churn Analysis - Business Challenge I
+# 🔁 Customer Churn Analysis x BCG 
 
-This repository contains the files and documentation for the Business Challenge I project completed during the master's program. The project was provided by Boston Consulting Group (BCG) and focuses on customer churn in the insurance sector. The goal was to analyze data, identify churn patterns, and propose strategies to mitigate churn.
+A data-driven project aimed at understanding and reducing **customer churn in the insurance industry** using predictive modeling and strategic recommendations.  
+📊 Developed as part of the *Business Challenge I* module in the Master’s in Business Analytics at Hult International Business School, in collaboration with **Boston Consulting Group (BCG)**.
 
-## Project Overview
-In this Business Challenge, we worked with synthetic data and a mobile app prototype provided by BCG. The objective was to:
-1. Identify key drivers of customer churn.
-2. Develop machine learning models to predict churn.
-3. Propose actionable strategies to reduce churn.
+---
 
-## Repository Structure
+## 📌 Project Overview
+
+The challenge involved working with a synthetic dataset and a mobile insurance app prototype provided by BCG. The objective was to:
+- Detect patterns of customer churn.
+- Build and evaluate machine learning models for churn prediction.
+- Recommend actionable strategies to improve customer retention.
+
+The final output included exploratory insights, predictive models, and a strategy presentation for executive stakeholders.
+
+---
+
+## 🧰 Tech Stack
+
+| Tool / Library       | Role                                                  |
+|----------------------|--------------------------------------------------------|
+| **Python**           | Data analysis, feature engineering, model training     |
+| **Jupyter Notebook** | Interactive development and experimentation            |
+| **Pandas**, **NumPy**| Data cleaning, wrangling and preprocessing             |
+| **Scikit-learn**     | Model building: Logistic Regression, Decision Trees, Random Forest |
+| **Seaborn**, **Matplotlib** | Visualizations and performance evaluation       |
+| **Excel**            | Supporting calculations and presentation building      |
+
+
+--- 
+
+## 📁 Repository Structure
 ```
 ├── data/
 │   ├── raw/
@@ -22,6 +44,8 @@ In this Business Challenge, we worked with synthetic data and a mobile app proto
 │   ├── MBAN_Team4_BusinessChallenge_Excel.xlsx        # Supporting analysis in Excel.
 ├── README.md
 ```
+
+---
 
 ## Steps to Reproduce
 ### Prerequisites
