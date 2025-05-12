@@ -42,56 +42,73 @@ The final output included exploratory insights, predictive models, and a strateg
 ├── reports/
 │   ├── MBAN_Team4_BusinessChallenge_Presentation.pdf  # Final presentation with strategies and insights.
 │   ├── MBAN_Team4_BusinessChallenge_Excel.xlsx        # Supporting analysis in Excel.
+├── requirements.txt
 ├── README.md
 ```
 
 ---
 
-## Steps to Reproduce
+## 💾 How to Run Locally
+
 ### Prerequisites
-- Python 3.8 or higher.
-- Required Python libraries 
-- Jupyter Notebook for running the analysis.
+- Python 3.8 or higher
+- Jupyter Notebook
+- Required Python libraries (see `requirements.txt`)
 
 ### Steps
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your_username/BusinessChallengeI.git
-   ```
-2. **Data Exploration and Cleaning:**
-   - Use the Jupyter notebook `MBAN_Team4_BusinessChallenge.ipynb` to explore and clean the dataset.
-3. **Review Results:**
-   - Refer to the `reports/` folder for the presentation and supporting analysis.
 
-## Key Deliverables
-1. **Data Insights:**
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/your_username/BusinessChallengeI.git
+   ```
+#### 2. Explore the data
+   Open the notebook located in notebooks/MBAN_Team4_BusinessChallenge.ipynb to clean, analyze, and model the dataset.
+#### 3. Review Results
+   Navigate to the reports/ folder to find the final presentation and supporting Excel analysis.
+
+---
+
+## 📦 Key Deliverables
+
+1. **📊 Data Insights**
    - Identified key churn drivers such as late payments and customer complaints.
-2. **Machine Learning Models:**
+
+2. **🧠 Machine Learning Models**
    - Applied logistic regression, decision trees, and random forest algorithms to predict churn.
    - Models struggled with accuracy due to the synthetic nature of the dataset.
-3. **Strategies:**
+
+3. **🎯 Strategic Recommendations**
    - Developed actionable strategies to reduce churn, including:
-     - Automated alerts for missed payments.
-     - Gamified engagement and loyalty programs.
-     - Improved onboarding and claims processing.
+     - Automated alerts for missed payments
+     - Gamified engagement and loyalty programs
+     - Improved onboarding and claims processing
 
-## Technologies Used
-- **Programming Languages:** Python, Jupyter Notebook.
-- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn.
-- **Tools:** Excel.
+---
 
+## 🔍 Notes
 
-## Notes
-- This project is purely educational and was part of Business Challenge I during the Fall Term of the MBA with Analytics program at Hult International Business School.
-- The dataset is synthetic and provided by BCG for academic purposes only.
+- This project is purely educational and was completed as part of *Business Challenge I* during the Fall Term of the MBA with Analytics program at **Hult International Business School**.
+- The dataset is synthetic and provided by **Boston Consulting Group (BCG)** for academic purposes only.
 - Strategies and insights were based on the analysis of synthetic data and are illustrative.
 
-## License
-This project is for educational purposes only and is licensed under the Educational Community License v2.0 (ECL-2.0). 
-All rights, including intellectual property, remain with the authors: 
-  Arabela Cárceles, Melek Ladhari, Sayefaldeen Suleiman, Abhimanyu Kankhar, Ansh Patek, and Fernando Caballol.
+---
 
-### Usage Restrictions
+## 📄 License
+
+This project is licensed under the **Educational Community License v2.0 (ECL-2.0)**.  
+All rights, including intellectual property, remain with the authors:
+
+- Arabela Cárceles  
+- Melek Ladhari  
+- Sayefaldeen Suleiman  
+- Abhimanyu Kankhar  
+- Ansh Patek  
+- Fernando Caballol
+
+### ⚠️ Usage Restrictions
+
 - Redistribution, modification, or commercial use of the contents in this repository is strictly prohibited without prior written consent from the authors.
 - The dataset and insights were created for academic purposes and should not be used in real-world applications.
 - This repository is intended to be used exclusively for educational and non-commercial research.
+
+
